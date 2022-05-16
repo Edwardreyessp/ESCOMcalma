@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/ESCOMcalma_logo.png";
+import logo from "../assets/ESCOMcalma_logo.jpg";
 
 const Navbar = () => {
   return (
