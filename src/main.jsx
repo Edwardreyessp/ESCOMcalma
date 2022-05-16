@@ -8,10 +8,7 @@ import Temario from "./Components/Temario";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <Routes>
-      <Route
-        path="https://edwardreyessp.github.io/ESCOMcalma/"
-        element={<App />}
-      />
+      <Route path="/" element={<App />} />
       <Route path="/material" element={<Material />} />
       <Route path="/comunidad" element={<App />} />
       <Route path="/contactanos" element={<App />} />
