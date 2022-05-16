@@ -1,0 +1,12 @@
+@mixin centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin safeArea {
+  width: 100vw;
+  height: 100vh;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}

@@ -1,0 +1,40 @@
+.Inicio {
+  @include safeArea;
+  @include centrar;
+  background: url(../assets/fondo1.jpg);
+  justify-content: end;
+
+  .descripcion {
+    width: 604px;
+
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 3rem;
+    }
+    p {
+      font-size: 15px;
+      margin-bottom: 1rem;
+    }
+    a {
+      font-weight: 700;
+    }
+
+    .link {
+      text-decoration: none;
+
+      .button {
+        @include centrar;
+        margin-top: 3rem;
+        width: 200px;
+        height: 50px;
+        color: white;
+        background: #006699;
+        border-radius: 48px;
+      }
+    }
+
+    .link:hover {
+      opacity: 0.8;
+    }
+  }
+}

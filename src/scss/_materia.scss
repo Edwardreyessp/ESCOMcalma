@@ -1,0 +1,13 @@
+.materia {
+  @include centrar;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  width: 250px;
+  height: 90px;
+  background: #5aa9d1;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  padding: 0.5rem;
+}
