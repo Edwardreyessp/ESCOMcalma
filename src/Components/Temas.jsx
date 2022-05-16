@@ -5,8 +5,8 @@ import {
   noMostrar,
 } from "../scss/Temario.module.scss";
 import { useState } from "react";
-import Video from "../assets/Video.jpg";
-import TP from "../assets/Teoría_Práctica.jpg";
+import Video from "../images/Video.jpg";
+import TP from "../images/Teoría_Práctica.jpg";
 
 const Temas = ({ nombre }) => {
   const [tema, setTema] = useState(false);

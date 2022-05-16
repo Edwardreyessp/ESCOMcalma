@@ -1,7 +1,7 @@
 .Inicio {
   @include safeArea;
   @include centrar;
-  background: url(../assets/fondo1.jpg);
+  background: url(../images/fondo1.jpg);
   justify-content: end;
 
   .descripcion {
