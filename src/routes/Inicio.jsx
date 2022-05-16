@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
+import fondo from "../images/fondo1.jpg";
 
 const Inicio = () => {
   return (
     <main className="Inicio">
+      <img src={fondo} alt="" />
       <section className="descripcion">
         <h1>¿Qué somos?</h1>
         <p>

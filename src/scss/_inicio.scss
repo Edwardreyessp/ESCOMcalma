@@ -1,11 +1,18 @@
 .Inicio {
   @include safeArea;
   @include centrar;
-  background: url(../images/fondo1.jpg);
+  background: #f6f7fb;
   justify-content: end;
+
+  img {
+    margin-left: -10rem;
+    width: 65vw;
+    height: 100vh;
+  }
 
   .descripcion {
     width: 604px;
+    z-index: 0;
 
     h1 {
       font-size: 4rem;
